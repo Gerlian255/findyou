@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/* 全局样式 */
+body{
+	margin: 0;
+	
+}
+.swiper-container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide>div{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 50%;
+}
+/* 页面样式 */
+.s1{
+  background-image: url(../img/t1-bg.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.s1 .a01{
+	top: 20%;
+	width: 80%;
+	height: 80%;
+	margin-left: -40%;
+	background: url(../img/t1-yuan.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s1 .a02{
+	top: 25%;
+	width: 90%;
+	height: 90%;
+	margin-left: -45%;
+	background: url(../img/t1-text.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.s2 {
+	height: 100%;
+	width: 100%;
+  background-image: url(../img/t2-bg.png);
+  background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.s2 .a01{
+	top: 5%;
+	width: 50%;
+	height: 50%;
+	margin-left: -25%;
+	background: url(../img/t2-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: center;
+}
+.s2 .a02{
+	top: 65%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t2-3.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.s3 {	
+  background-image: url(../img/t3-bg.png);
+}
+.s3 .a01{
+	top: 50%;
+	width: 50%;
+	height: 50%;
+	margin-left: -25%;
+	background: url(../img/t3-1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: center;
+}
+.s3 .a02{
+	top: 5%;
+	width: 70%;
+	height: 70%;
+	margin-left: -35%;
+	background: url(../img/t3-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.s4 {
+  background: #F94848;
+}
+.s4 .a01{
+	top: 5%;
+	width: 80%;
+	height: 80%;
+	margin-left: -40%;
+	background: url(../img/t4-1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s4 .a02{
+	top: 40%;
+	width: 70%;
+	height: 70%;
+	margin-left: -35%;
+	background: url(../img/t4-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s4 .a03{
+	top: 70%;
+	width: 90%;
+	height: 90%;
+	margin-left: -45%;
+	background: url(../img/t4-3.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.s5 {
+  background: #EC5F55;
+}
+.s5 .a01{
+	top: 0;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t5-1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s5 .a02{
+	top: 10%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t5-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: center;
+}
+.s5 .a03{
+	top: 70%;
+	width: 80%;
+	height: 80%;
+	margin-left: -40%;
+	background: url(../img/t5-3.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.s6 {
+  background: #7876B7;
+}
+.s6 .a01{
+	top: 5%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t6-1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s6 .a02{
+	top: 0;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t6-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: center;
+}
+.s6 .a03{
+	top: 70%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t6-3.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.s7 {
+  background: #147C79;
+}
+.s7 .a01{
+	top: 0;
+	width: 80%;
+	height: 80%;
+	margin-left: -40%;
+	background: url(../img/t7-1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s7 .a02{
+	top: 10%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t7-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: center;
+}
+.s7 .a03{
+	top: 70%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t7-3.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.s8 {
+  background: #619B51;
+}
+.s8 .a01{
+	top: 5%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t8-1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s8 .a02{
+	top: 0;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t8-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: center;
+}
+.s8 .a03{
+	top: 70%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t8-3.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.s9 {
+  background: #5FBDD9;
+}
+.s9 .a01{
+	top: 0;
+	width: 90%;
+	height: 90%;
+	margin-left: -45%;
+	background: url(../img/t9-1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s9 .a02{
+	bottom: -6%;
+	width: 90%;
+	height: 30%;
+	margin-left: -45%;
+	background: url(../img/t9-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.s10 {
+  background: url(../img/t10-bg.png);
+  background-position: center;
+}
+.s10 .a01{
+	top: 5%;
+	width: 90%;
+	height: 90%;
+	margin-left: -45%;
+	background: url(../img/t10-1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s10 .a02{
+	top: 70%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t10-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s10 .a03{
+	top: 80%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t10-3.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.s10 .a04{
+	top: 90%;
+	width: 60%;
+	height: 60%;
+	margin-left: -30%;
+	background: url(../img/t10-4.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
